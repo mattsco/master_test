@@ -53,7 +53,7 @@
       "type": "FilterOnNumericalRange",
       "params": {
         "min": 1.0,
-        "max": 1.0,
+        "max": 2.0,
         "booleanMode": "AND",
         "columns": [
           "bed"
