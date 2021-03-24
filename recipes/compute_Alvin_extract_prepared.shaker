@@ -26,8 +26,27 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "StringTransformer",
+      "params": {
+        "mode": "TO_LOWER",
+        "columns": [
+          "address"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "truncate_limit": 0
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +54,29 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "bed": 100,
+    "studio": 100,
+    "psf": 100,
+    "last_updated": 134,
+    "address": 232,
+    "first_seen": 120,
+    "last_seen": 100,
+    "year": 100,
+    "titre": 239,
+    "floorarea": 204,
+    "type": 169,
+    "MRT": 300,
+    "url": 300,
+    "hold": 141,
+    "new_listing": 100,
+    "deleted": 100,
+    "price": 100,
+    "district": 100,
+    "sqft": 100,
+    "id": 100,
+    "bath": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
