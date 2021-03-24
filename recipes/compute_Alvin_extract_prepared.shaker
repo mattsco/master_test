@@ -32,7 +32,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "StringTransformer",
@@ -43,6 +43,23 @@
         ],
         "appliesTo": "SINGLE_COLUMN",
         "truncate_limit": 0
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnNumericalRange",
+      "params": {
+        "min": 1.0,
+        "max": 1.0,
+        "booleanMode": "AND",
+        "columns": [
+          "bed"
+        ],
+        "action": "KEEP_ROW",
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
