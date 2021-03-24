@@ -122,7 +122,6 @@
     }
   },
   "name": "master_test",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -178,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616550315274
+    "lastModifiedOn": 1616550367367
   },
   "creationTag": {
     "versionNumber": 0,
@@ -192,7 +191,9 @@
     "lastModifiedOn": 1616550167300
   },
   "shortDesc": "The project *master_test* was created by Matt on Mar 24th 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
